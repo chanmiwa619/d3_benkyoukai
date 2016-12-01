@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SVG Example</title>
+    <style>
+      .a {
+        font-size: 2em;
+      }
+    </style>
+  </head>
+  <body>
+
+    <svg width="250" height="250">
+      <rect width="250" height="250"></rect>
+    </svg>
+
+     <svg width="250" height="250">
+      <circle r="250"></circle>
+     </svg>
+
+     <svg width="250" height="250">
+      <circle cx="100" cy="100" r="50" fill="red"
+              stroke="black" stroke-width="10"></circle>
+    </svg>
+
+      <svg width="250" height="250">
+      <circle cx="100" cy="100" r="50"></circle>
+    </svg>
+
+     <svg width="250" height="250">
+
+      <line x1="50"  y1="50"  x2="100" y2="150" stroke="black" stroke-width="10"></line>
+      <line x1="100" y1="150" x2="150" y2="100" stroke="black" stroke-width="10"></line>
+      <line x1="150" y1="100" x2="200" y2="150" stroke="black" stroke-width="10"></line>
+
+    </svg>
+
+
+    <svg width="250" height="250">
+      <path d="M50 50 L100 150 L150 100 L200 150"
+            fill="none" stroke="black" stroke-width="10"></path>
+    </svg>
+
+
+     <svg width="250" height="250">
+
+      <rect x="0"  y="0"   width="50"  height="200" fill="gray"/>
+      <rect x="50" y="200" width="200" height="50"  fill="gray"/>
+
+      <circle cx="0"   cy="0"   r="10"/>
+      <circle cx="100" cy="100" r="10"/>
+      <circle cx="130" cy="120" r="10"/>
+      <circle cx="80"  cy="180" r="10"/>
+      <circle cx="180" cy="80"  r="10"/>
+      <circle cx="180" cy="40"  r="10"/>
+
+    </svg>
+
+
+
+    <svg width="250" height="250">
+      <path d="M50 50 L100 150 L150 150 L200 50Z"
+            fill="red" stroke="black" stroke-width="10"></path>
+    </svg>
+
+
+
+    <svg width="250" height="250">
+
+      <rect x="0"  y="0"   width="50"  height="200" fill="gray"/>
+      <rect x="50" y="200" width="200" height="50"  fill="gray"/>
+
+      <g transform="translate(50, 0)">
+        <circle cx="0"   cy="0"   r="10"/>
+        <circle cx="100" cy="100" r="10"/>
+        <circle cx="130" cy="120" r="10"/>
+        <circle cx="80"  cy="180" r="10"/>
+        <circle cx="180" cy="80"  r="10"/>
+        <circle cx="180" cy="40"  r="10"/>
+      </g>
+
+    </svg>
+
+
+
+     <svg width="250" height="250">
+
+      <rect x="0"  y="0"   width="50"  height="200" fill="gray"/>
+      <rect x="50" y="200" width="200" height="50"  fill="gray"/>
+
+      <g transform="translate(50, 0)">
+        <rect x="5"   y="0"   width="40" height="200"/>
+        <rect x="55"  y="50"  width="40" height="150"/>
+        <rect x="105" y="100" width="40" height="100"/>
+        <rect x="155" y="150" width="40" height="50"/>
+      </g>
+
+    </svg>
+
+
+    <svg width="250" height="250">
+
+      <rect x="0"  y="0"   width="50"  height="200" fill="gray"/>
+      <rect x="50" y="200" width="200" height="50"  fill="gray"/>
+
+      <g transform="translate(50, 0)">
+        <path d="M0 200 L50 50 L100 150 L150 100 L200 150"
+              fill="none" stroke="black" stroke-width="10"></path>
+      </g>
+
+    </svg>
+
+    <svg width="300" height="250">
+      <text x="50" y="50">Hello SVG Text!</text>
+    </svg>
+
+    
+    <svg width="300" height="250">
+      <text class="a" x="50" y="50">Hello SVG Text!</text>
+    </svg>
+
+
+  </body>
+</html>
